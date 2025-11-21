@@ -57,7 +57,3 @@ netsh interface portproxy delete v4tov4 listenport=8080 listenaddress=%loopback_
 echo Port forwards deleted.
 echo Press any key to exit.
 pause >nul
-Save the script above as a .bat file and run it as Administrator.
-It will create the appropriate port forwards, and in your application you can simply point the device to the local address you chose (for example, 127.0.0.100).
-My recommendation is to still use the VPN on Demand if available.
-If you need assistance with the above script, reach out to our support support@domotz.com we can assist you with it.
